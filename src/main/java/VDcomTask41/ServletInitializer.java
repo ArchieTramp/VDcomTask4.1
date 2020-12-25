@@ -1,4 +1,4 @@
-package VDcom.Task41;
+package VDcomTask41;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

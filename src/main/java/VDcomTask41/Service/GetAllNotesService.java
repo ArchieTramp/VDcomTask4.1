@@ -1,7 +1,7 @@
-package VDcom.Task41.Service;
+package VDcomTask41.Service;
 
-import VDcom.Task41.Model.Note;
-import VDcom.Task41.Model.User;
+import VDcomTask41.Model.Note;
+import VDcomTask41.Model.User;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package VDcom.Task41.Model;
+package VDcomTask41.Model;
 
 import lombok.*;
 

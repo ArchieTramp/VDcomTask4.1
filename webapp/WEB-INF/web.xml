@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app version="3.1"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         metadata-complete="false">
+    <servlet>
+        <servlet-name>addServlet</servlet-name>
+        <servlet-class>VDcomTask41.Controller.AddNoteController</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addServlet</servlet-name>
+        <url-pattern>/newnote</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>delServlet</servlet-name>
+        <servlet-class>VDcomTask41.Controller.DeleteNoteController</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>delServlet</servlet-name>
+        <url-pattern>/deleter</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>editServlet</servlet-name>
+        <servlet-class>VDcomTask41.Controller.EditNoteController</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>editServlet</servlet-name>
+        <url-pattern>/editer</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>allServlet</servlet-name>
+        <servlet-class>VDcomTask41.Controller.GetAllNotesController</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>allServlet</servlet-name>
+        <url-pattern>/allnotes</url-pattern>
+    </servlet-mapping>
+</web-app>

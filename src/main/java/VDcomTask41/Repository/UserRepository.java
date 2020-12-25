@@ -1,6 +1,6 @@
-package VDcom.Task41.Repository;
+package VDcomTask41.Repository;
 
-import VDcom.Task41.Model.User;
+import VDcomTask41.Model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

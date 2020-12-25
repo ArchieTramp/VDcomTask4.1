@@ -1,6 +1,6 @@
-package VDcom.Task41.Service;
+package VDcomTask41.Service;
 
-import VDcom.Task41.Model.Note;
+import VDcomTask41.Model.Note;
 
 /**
  * @author Artur Gilyazov

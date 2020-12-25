@@ -1,4 +1,4 @@
-package VDcom.Task41.Model;
+package VDcomTask41.Model;
 
 import lombok.*;
 
@@ -26,7 +26,7 @@ public final class Note {
     private Long timestamp; //штамп времени создания и редактирования//
     private String note; //тело заметки//
     @ManyToOne
-    @JoinColumn(name = "username")
+    @JoinColumn(name = "title")
     User user;
 
 }

@@ -1,7 +1,7 @@
-package VDcom.Task41.Service;
+package VDcomTask41.Service;
 
-import VDcom.Task41.Model.Note;
-import VDcom.Task41.Repository.NoteRepository;
+import VDcomTask41.Model.Note;
+import VDcomTask41.Repository.NoteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

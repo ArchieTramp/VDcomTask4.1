@@ -1,8 +1,8 @@
-package VDcom.Task41.Controller;
+package VDcomTask41.Controller;
 
-import VDcom.Task41.Model.Note;
-import VDcom.Task41.Repository.NoteRepository;
-import VDcom.Task41.Service.EditNoteService;
+import VDcomTask41.Model.Note;
+import VDcomTask41.Repository.NoteRepository;
+import VDcomTask41.Service.EditNoteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
